@@ -6,11 +6,11 @@
             "serverIp": "127.0.0.1",
             "serverPort": 7701,
             "name": "Tera Private",
-            "serverId": 2800,
-            "publisher": "GF",
-            "language": "eu",
-            "patchVersion": "100.02",
-            "protocolVersion": 376012,
+            "serverId": 337,
+            "publisher": "RUS",
+            "language": "rus",
+            "patchVersion": "31.04",
+            "protocolVersion": 286406,
             "integrity": false
         }
     ]

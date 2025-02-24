@@ -261,7 +261,7 @@ class CommandBase {
         } else if (this.mod.settings.silent_mode)
                 this.mod.log(showModName ? `[${modName}] ${msg}` : msg);
             else
-                this.mod.send('S_CHAT', this.mod.majorPatchVersion >= 108 ? 4 : 3, {
+                this.mod.send('S_CHAT', '*', {
                     channel: 1,
                     gm: true,
                     name: "Server",
