@@ -10,7 +10,7 @@ The implementation allows you to allow GM (QA) commands to certain accounts by p
 
 1. Unpack the **tera-proxy-server** to your server directory.
 2. Unpack **ArbiterServer_m1.exe** to your **Bin** directory of TERA Server.
-3. Open the **1. ArbiterServer.bat** file and change **ArbiterServer** to **ArbiterServer_m1**.
+3. Open the **1. ArbiterServer.bat** file and change **ArbiterServer** to **ArbiterServer_m2**.
 4. Open the **DeploymentConfig.xml** file, change port **7801** to **7701**, and set the **qaServer** param to **false**.
 5. Start the TERA servers (Arbiter, World, etc.).
 6. Run **tera-proxy-server\Start.bat**.
