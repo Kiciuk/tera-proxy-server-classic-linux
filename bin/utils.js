@@ -36,7 +36,7 @@ function setNormalProcessPriority() {
     const os = require('os');
     os.setPriority(os.constants.priority.PRIORITY_NORMAL);
 }
-
+/*
 // See https://github.com/sindresorhus/is-admin
 function isAdmin() {
     const { exec } = require('child_process');
@@ -54,6 +54,31 @@ function isAdmin() {
     });
 }
 
+*/
+function isAdmin() {
+if (!process.getuid() == 0)
+{
+return true;
+}
+else
+return false;
+  
+}
+
+/*
+function isAdmin() {
+              if (!err) {
+                resolve(true);
+            } else {
+                if (err.code === 1)
+                    resolve(false);
+                else
+                    reject(err);
+            }
+        });
+    });
+}
+*/
 /**
  * Remove directory recursively
  * @param {string} dir_path
