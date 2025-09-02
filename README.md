@@ -26,3 +26,11 @@ The implementation allows you to allow GM (QA) commands to certain accounts by p
 ### Important note
 
 Since this method uses proxying, it will no longer be possible to obtain user's real IP address, so IP bans in TERA API will not work.
+
+### Running toolbox on linux
+
+Arch:
+Currently modules are built against LTS version of Node 20 in order to run proxy under newer version please rebuild tera-network-crypto using node-gyp more info how to do it can be found in commit msg history of tera_network_crypto_115.node file.
+
+AUR package for LTS version of nodejs is called nodejs-lts-iron.
+
